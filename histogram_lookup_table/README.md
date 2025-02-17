@@ -1,0 +1,1 @@
+Based from https://github.com/dendibakh/perf-ninja/tree/main/labs/bad_speculation/lookup_tables_1
