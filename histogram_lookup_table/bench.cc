@@ -12,7 +12,7 @@ static void bench1(benchmark::State &state) {
   }
 }
 
-// Register the function as a benchmark and measure time in microseconds
+// Register the function as a benchmark
 BENCHMARK(bench1)->Range(100000, 100000000);
 
 // Run the benchmark

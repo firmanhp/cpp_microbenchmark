@@ -13,7 +13,7 @@ using mat::Identity;
 using mat::Zero;
 using mat::Multiply;
 using mat::Randomize;
-constexpr int N = 400;
+constexpr int N = 600;
 
 namespace {
   

@@ -1,7 +1,7 @@
 CC = g++
 OUT = out
 
-CCFLAGS = -std=c++20 -I./ -I../benchmark/include -Wextra -O3 -march=native
+CCFLAGS = -std=c++20 -I./ -I../benchmark/include -Wextra -O3 -march=native -g
 TEST_CCFLAGS = -Wextra -fsanitize=undefined
 BENCH_CCFLAGS = -L../benchmark/build/src/ -lbenchmark  -lpthread 
 TARGETS = fast_test fast_bench slow_test slow_bench
